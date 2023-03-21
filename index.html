@@ -1,0 +1,175 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> Canteen Management System</title>
+        <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css"> 
+        <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js" integrity="sha384-J6qa4849blE2+poT4WnyKhv5vZF5SrPo0iEjwBvKU7imGFAV0wwj1yYfoRSJoZ+n" crossorigin="anonymous"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/js/bootstrap.min.js" integrity="sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6" crossorigin="anonymous"></script>
+         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.2.1/css/fontawesome.min.css">
+         <style>
+        *
+         {
+            margin: 0;
+                padding: 0;
+            }
+        #nav-bar
+        {
+            position: sticky;
+            top: 0;
+            z-index: 10;
+        }
+        .navbar
+        {
+            background-image: linear-gradient(to right, sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6,sha384-wfSDF2E50Y2D1uUdj0O3uMBJnjuUD4Ih7YwaYd1iqfktj0Uod8GCExl3Og8ifwB6);
+        }
+        .navbar-brand img{
+           
+            height: 100px;
+            width: 300px;
+            padding-left: 20px;
+            border-radius:50%;
+
+        }
+        .navbar-nav li {
+
+            padding: 0 10px;
+        }
+        .navbar-nav li a
+        {
+            color:white;
+            font-weight: 600;
+            font-size: 20px;
+            float: right;
+            text-align: left;
+            
+        }
+        .fa-bars
+        {
+            color: black;
+            font-size: 30px;
+        }
+        .navbar-toggler{
+            outline: none;
+        }
+        
+        
+        #banner
+        {
+            color: white;
+            font-size: 30px ;
+            font-style: normal;
+            font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+        }
+        
+        .promo-title{
+            align-items: center;
+            font-size: 50px;
+            font-weight:1000;
+            margin-top: 50px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+        }
+
+        .promo{
+            font-size: 15px;
+            font-weight:1000;
+            margin-top: 5px;
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+
+        }
+
+        #banner a{
+            color: white;
+            text-decoration: none;
+        }
+
+       
+li a:hover{
+
+text-decoration: none;
+border-bottom: 3px solid red;
+line-height: 5px;
+margin:2px 0 ;
+position: relative;
+margin-top: 12.4px;
+}
+
+        .sub{
+
+            background-color: red;
+            color: white;
+            background-size:30px 30px ;
+            margin-top: 15px;
+            margin-right: 700px;
+            font-size: 20px;
+            margin-left: 15px ;
+
+        }
+
+        img.decor{
+	text-decoration:none;
+	border:#CCCCCC thin none;
+	padding: 4px; 
+    filter: brightness(140%);
+    
+}
+        </style>
+    </head>
+
+<body background="images/d23.jpg">
+<section id="nav-bar">
+    <nav class="navbar navbar-expand-lg bg-body-tertiary">
+       <div> <a class="navbar-brand" href="#"><img class="decor" src="images/c22.png "></a></div>
+        <div class="container-fluid">
+          
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          
+            <i class="fa fa-bars" aria-hidden="true"></i>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarNav" >
+            <ul class="navbar-nav ml-auto">
+              <li class="nav-item" class="hover">
+                <a class="nav-link" aria-current="page" href="#" ><p class="hover" >Home</p></a>
+              </li>
+              <li class="nav-item" class="hover">
+                <a class="nav-link" href="#"><p class="hover">Sign Up</p></a>
+              </li>
+              <li class="nav-item" class="hover">
+                <a class="nav-link" href="#"><p class="hover">Login</p></a>
+              </li>
+              <li class="nav-item" class="hover">
+                <a class="nav-link" href="#"><p class="hover">Menu</p></a>
+              </li>
+              <li class="nav-item" class="hover">
+                <a class="nav-link" href="#"><p class="hover">Order</p></a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="#" ><p class="hover">Contact</p></a>
+              </li>
+              
+              
+            </ul>
+          </div>
+        </div>
+      </nav>
+</section>
+
+<!----banner---->
+
+<section id="banner">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-6">
+                
+                <p class="promo-title"> ENJOY HEALTHY, DELICIOUS AND AFFORDABLE FOOD</p>
+                <p class="promo">The Most Student Friendly Canteen Yet! </p>
+               
+                
+            </div>
+            <div><a href="#"><p class="sub">Check Out Our Menu</p></a></div>
+        </div>
+    </div>
+</section>
+
+</body>
+</html>
+
