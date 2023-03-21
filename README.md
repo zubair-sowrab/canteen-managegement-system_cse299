@@ -1,2 +1,3 @@
-# cms-zubair
-My own parts of the canteen management system project
+# canteen-management-system_cse299
+CSE299 Project
+
